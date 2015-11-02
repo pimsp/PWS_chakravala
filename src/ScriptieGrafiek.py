@@ -50,7 +50,9 @@ class ZfZsqrtd():
         if self.d == other.d and self.f == other.f:
             return ZfZsqrtd(self.a*other.a + self.d*self.b*other.b, self.a*other.b + self.b*other.a, self.d, self.f)
     def __str__(self):
-        return str(self.a)+"+"+str(self.b)+"\sqrt{"+str(self.d)+"} (mod "+str(self.f)+")"
+        if f!=-1:
+            return str(self.a)+"+"+str(self.b)+"sqrt{"+str(self.d)+"} (mod "+str(self.f)+")"
+        return str(self.a)+"+"+str(self.b)+"sqrt{"+str(self.d)+"}"
 
 def orde(a,f):
     c = a
