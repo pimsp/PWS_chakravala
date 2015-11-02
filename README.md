@@ -20,9 +20,9 @@ Example usage:
 ```python
 >>> alpha = ZfZsqrtd(35,6,34,17)
 >>> print(alpha)
-1+6\sqrt{34} (mod 17)
+1+6sqrt{34} (mod 17)
 >>> print(alpha*alpha)
-1+12\sqrt{34} (mod 17)
+1+12sqrt{34} (mod 17)
 >>> print(orde(alpha,17))
 17
 ```
