@@ -15,7 +15,8 @@ Example usage:
 Given a,b,d and f, represents the number $a+b\sqrt{d}$ with coefficients a,b in $Z/fZ$ (a,b in Z if f isn't given).
 Can multiply and add two numbers with the same d and f.
 Prints a given number.
-Calculates the order of a solution mod f: the smallest power such that f divides the b-value
+Calculates the order of a solution mod f: the smallest power such that f divides the b-value.
+
 Example usage:
 ```python
 >>> alpha = ZfZsqrtd(35,6,34,17)
