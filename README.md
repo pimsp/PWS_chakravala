@@ -30,5 +30,5 @@ Example usage:
 
 ## License
 
-performance-now is released under the [MIT License](http://opensource.org/licenses/MIT).  
+PWS_chakravala is released under the [MIT License](http://opensource.org/licenses/MIT).  
 Copyright (c) 2015 Pim Spelier
