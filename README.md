@@ -11,6 +11,16 @@ Example usage:
 1
 ```
 
+# Graphing
+Uses the fundamental solution to graph the smallest solution in $Z[\sqrt{d}]$ for all d's smaller than n. Also graphs it's upper and lower boundary. Uses turtle; no extra packages required.
+
+Example usage:
+```python
+>>> graph(1000)
+```
+
+The result is a picture: see the file R_d_1000.jpeg
+
 # $Z[\sqrt{d}]$
 Given a,b,d and f, represents the number $a+b\sqrt{d}$ with coefficients a,b in $Z/fZ$ (a,b in Z if f isn't given).
 Can multiply and add two numbers with the same d and f.
