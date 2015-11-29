@@ -19,7 +19,7 @@ Example usage:
 >>> graph(1000)
 ```
 
-The result is a picture: see the file R_d_1000.jpeg
+The result is a picture: see the file R_d_1000.png
 
 # $Z[\sqrt{d}]$
 Given a,b,d and f, represents the number $a+b\sqrt{d}$ with coefficients a,b in $Z/fZ$ (a,b in Z if f isn't given).
